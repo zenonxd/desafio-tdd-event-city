@@ -20,7 +20,7 @@ public class EventController {
 
         dto = service.update(id, dto);
 
-        return ResponseEntity.status(HttpStatus.OK).body(dto);
+        return ResponseEntity.ok(dto);
 
     }
 }
